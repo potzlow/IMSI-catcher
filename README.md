@@ -1,5 +1,9 @@
-# IMSI-catcher
+# IMSI-catcher-de
+Dieses Programm zeigt dir die IMSI Nummern von Mobiltelefonen in deiner Umgebung an.
+
 This program shows you IMSI numbers of cellphones around you.  
+
+/!\ Das Programm wurde zu wissenschaftlichen Zwecken entwickelt, um z.B. GSM besser zu verstehen. Halte dich an die HackerEthik!
   
 /!\ This program was made to understand how GSM network work. Not for bad hacking !  
   
@@ -7,10 +11,10 @@ This program shows you IMSI numbers of cellphones around you.
 ![screenshot0](capture_simple_IMSI-catcher.png)  
   
 
-What you need
+Was du brauchst
 =============
-1 PC with more than 3Go of RAM * to compile gr-gsm  
-1 USB DVB-T key (RTL2832U) with antenna (less than 15$)  
+1 PC mit mehr als 3 GB RAM * zum kompilieren von gr-gsm  
+1 USB DVB-T Stick (RTL2832U) mit Antenne (unter 15€)  
   
 \* *On EEEPC 1000H with 2Go of RAM and 2Go of swap, compiling take 1 day.*  
   
@@ -23,7 +27,7 @@ sudo apt-get install gnuradio git python-scapy
 git clone https://github.com/pybombs/pybombs.git
 cd pybombs
 ```
-/!\ when "./pybombs config" ask for "prefix", set "/usr/local" :  
+/!\ Wenn "./pybombs config" dich nach dem "prefix" fragt, setze "/usr/local" :  
 prefix [/tmp/target]:/usr/local  
 ```
 ./pybombs config
